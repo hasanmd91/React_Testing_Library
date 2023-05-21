@@ -11,6 +11,7 @@ function HomeRoute() {
   const { data: javaRepos } = useRepositories("stars:>10000 language:java");
 
   return (
+    // something is added here
     <div>
       <Hero />
       <div className="container mx-auto py-8 grid grid-cols-1 gap-4 md:grid-cols-2">
